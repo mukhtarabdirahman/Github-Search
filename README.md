@@ -1,9 +1,8 @@
 # Project Name
 -GitSearch
 
-# GithubSearch
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## Description
+-a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
 ## Development server
 
