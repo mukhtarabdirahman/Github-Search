@@ -1,11 +1,15 @@
 # Project Name
--GitSearch
+- GitSearch
 
 ## Description
--a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
+- a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
 ## Author
 - Ahmed Mukhtar
+
+## Technology used
+- Andular cli
+- Typescript
 
 ## Development server
 
