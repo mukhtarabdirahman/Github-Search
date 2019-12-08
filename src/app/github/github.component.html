@@ -41,4 +41,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2 class="panel-title">Repositories</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div *ngFor="let rep of repo">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h4><a target="_blank" href="{{rep.html_url}}">{{rep.name}}</a></h4>
+                                            <p>{{rep.description}}</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <span class="label label-warning">{{rep.forks}} Forks</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
+                
+                            </div>
+                </div>
+                
             
