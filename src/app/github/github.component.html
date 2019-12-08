@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
 <div class="container-fluid">
-    <H1 class="text center">Git search</H1>
+    <H1 class="git">Git search</H1>
     <div class="col-md-8">
         <form>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Type GitHub Name" name="username"
+                <input type="text" class="form-control search"  placeholder="Type GitHub Name" name="username"
                     [(ngModel)]="username" (keyup)="search()">
             </div>
         </form>
@@ -17,7 +27,7 @@
                 <div class="row">
 
                     <div class="col-md-4">
-
+                        <img src="{{github.avatar_url}}" alt="">
                         <br>
                         <a class="btn btn-block btn-info" href="{{user.html_url}}" target="_blank"> View Profile </a>
                     </div>
@@ -27,7 +37,7 @@
                         </span>
                         <span class="label">{{user.public_gists}} Public Gists </span>
                         <span class="label">{{user.followers}} Followers</span>
-                        <span class="label label-warning">{{user.following}} Following</span>
+                        <span class="label">{{user.following}} Following</span>
 
                         <br>
                         <ul class="list-group">
