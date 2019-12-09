@@ -27,11 +27,11 @@
                     </div>
                     <div class="col-md-8">
 
-                        <span class="label label-info">{{user.public_repo}} Public Repositories
+                        <span class="btn btn-success">{{user.public_repos}} Public Repositories
                         </span>
-                        <span class="label">{{user.public_gists}} Public Gists </span>
-                        <span class="label">{{user.followers}} Followers</span>
-                        <span class="label">{{user.following}} Following</span>
+                        <span class="btn btn-info">{{user.public_gists}} Public Gists </span>&nbsp;
+                        <span class="btn btn-warning">{{user.followers}} Followers</span>&nbsp;
+                        <span class="btn btn-danger">Following{{user.following}}</span>
 
                         <br>
                         <ul class="list-group">
