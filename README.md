@@ -13,7 +13,10 @@
 
  ## BDD
  <img src ="src/assets/1.png">
- This is the landing page
+ This is the landing page.
+ <img src="src/assets/2.png">
+ When you search user Repository this how it will be displayed.
+ <img src="src/assets/3.png">
 
 ## Development server
 
