@@ -11,6 +11,10 @@
 - Andular cli
 - Typescript
 
+ ## BDD
+ <img src ="src/assets/1.png">
+ This is the landing page
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

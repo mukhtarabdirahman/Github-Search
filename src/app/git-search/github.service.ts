@@ -10,14 +10,14 @@ export class GithubService {
   private username = 'mukhtarabdirahman';
 
   constructor(private http:HttpClient) { }
-  getUser(){
-    return this.http.get(this.url + this.username).pipe(map( res => res));
-  }
-  getRepo(){
-    return this.http.get(this.url + this.username + '/repos').pipe(map( res => res));
-  }
-  changeUserNames(username: string) {
-    this.username = username;
-  }
+    getUser(){
+      return this.http.get(this.url + this.username).pipe(map( res => res));
+    }
+    getRepo(){
+      return this.http.get(this.url + this.username + '/repos').pipe(map( res => res));
+    }
+    changeUserNames(username: string) {
+      this.username = username;
+    }
 
 }
